@@ -1,6 +1,7 @@
 body{
     font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
+margin: 0;
 }
 h1{
     font-size:50px ;
@@ -98,4 +99,14 @@ h1{
 }
 .group-projects{
     display: flex;
+}
+footer{
+  
+    background-color: #0b0d17;
+    height: 200px;
+}
+.last-part{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
 }
