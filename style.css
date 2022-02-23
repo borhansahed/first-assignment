@@ -4,15 +4,15 @@ font-family: 'Poppins', sans-serif;
 margin: 0;
 }
 h1{
-    font-size:50px ;
+    font-weight: 800 ;
 }
-.using-border{
+.using-border h1{
        
-    
+    font-size: 40px;
     border-left: 4px solid rgba(243, 0, 49, 0.425);
     
-
-  padding:0px 30px;
+  
+  padding:0px 20px;
     border-radius:2px;
    
 }
@@ -24,28 +24,30 @@ h1{
 }
 .mission-2022{
     display:flex;
-    padding: 10px;
-    margin-bottom: 40px;
-    
-    
-}
-.first-section{
-    width: 100%;
-    margin: 5% 10%;
-    
-    
+    justify-content: center;
+    margin: 60px 0px;
+   
+   
+   
     
     
 }
 
+.first-section{
+    width:500px;
+    
+   }
+
+
 .first-section img{
-    width: 76vh;
+    width: 65vh;
+    margin: 0px 40px;
     border-radius: 6px;
 }
 .button{
     text-decoration: none;
     background-color:#ff5959;
-    padding: 10px 60px;
+    padding: 10px 30px;
     border-radius: 5px;
     color: white;
     font-weight: 600;
@@ -55,66 +57,101 @@ h1{
     
 }
 .button-div{
-    padding-top:20px ;
+    padding-top:10px ;
+}
+.mymission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 60px 0px;
+     gap: 40px;
+}
+.mymission img{
+    width: 20vh;
 }
 
 .mission{
     background-color:#edf5f6;
     border-radius: 10px;
-    padding: 30px;
-    
+    padding:15px 20px;
+    width: 300px;
+    height: 376px;
+/*    
+    margin-right: 40px; */
     
 
 }
 .vission{
     background-color:#ffeeee;
     border-radius: 10px;
-    padding: 30px;
-    
+    padding:15px 20px;
+    height: 376px;
+    width: 300px;
+
+  
     
 
 }
 .goals{
     background-color: #fff4d6;
     border-radius: 10px;
-    padding: 30px;
+    padding: 15px 20px;
+    width: 300px;
+    height: 376px;
     
+   
 }
 .girl-projects{
     display: flex;
-    margin: 50px auto;
-    margin-bottom: 50px;
-    /* margin-left: 110px; */
+    
+    justify-content: center;
+    margin-bottom: 30px;
+    
    
 
     background-image:url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-size: 20%;
     
-    background-position: left;
+   background-position: left;
 
 }
 .girls-img img{
-    width: 80vh;
-     /* margin-left: 200px; */
+    width: 55vh;
+    ;
+    padding-right: 130px;
 }
 
     
 
 .coding-project{
-    margin:0px  auto;
-
+    width: 521px;
+    height: 312px;
+ 
 }
+.communities{
+    width: 621px;
+height: 312px
+}
+.communities img{
+    margin-left: 60px;
+    width: 55vh;
+}
+.images img{
+   width: 55vh;
+   border-radius: 4px;
+}
+
 .chair-section{
+   
+    width: 55vh;
     border: 2px solid;
     border-style: unset;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 2px 2px 10px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-right: 20px;
+   padding: 15px 30px;
     
 }
 
@@ -122,6 +159,7 @@ footer{
   
     background-color: #0b0d17;
     height: 200px;
+    
 }
 .last-part{
     text-align: center;
@@ -143,19 +181,50 @@ footer{
  }
  .mission-2022{
      flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
  }
  .first-section img{
      width: 40vh;
  }
+ .mymission{
+    
+   flex-direction: column;
+   
+  
+   
+     
+}
+.mission{
+    
+}
+.mymission img{
+    width: 10vh;
+}
+
  .girl-projects{
      width: 80vh;
     flex-direction: column;
     }
+    .coding-project{
+        width: 400px;
+    }
+    .communities{
+        width: 400px;
+        margin-bottom: 100px;
+    }
+    .communities img{
+        width: 35vh;
+    }
     .girls-img img{
-        width: 40vh;
+        width: 35vh;
     }
     .button{
        padding: 10px;
+       font-size: 10px;
+    }
+    .chair-section{
+        order: -1;
     }
 
     
