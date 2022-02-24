@@ -193,6 +193,7 @@ footer{
  .mission-2022{
      flex-direction: column;
     justify-content: center;
+    gap: 20px 0px;
     }
    .first-section {
        
