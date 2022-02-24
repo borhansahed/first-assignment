@@ -6,6 +6,9 @@ margin: 0;
 h1{
     font-weight: 800 ;
 }
+hr{
+    display: none;
+}
 .using-border h1{
        
     font-size: 40px;
@@ -125,6 +128,9 @@ h1{
     ;
     
 }
+h3{
+    font-size: 30px;
+}
 
     
 
@@ -169,21 +175,32 @@ footer{
 
 
 @media screen and (max-width:668px){
-
-    .using-border h1{
-       
-        font-size: 25px;}
+  hr{
+      display:block;
+      width: 250px;
+      margin-top: 4rem;
+  }
+    .using-border h1 {
+      
+     
+        font-size: 27px;}
  h1{
-     font-size: 17px;
+     font-size: 24px;
+ }
+ h3{
+     font-size: 22px;
  }
  .mission-2022{
      flex-direction: column;
     justify-content: center;
-    
-   
- }
+    }
+   .first-section {
+       
+      
+        text-align: center;}
+
  .my-photo img{
-     width: 50vh;
+     width: 45vh;
  }
  .mymission{
     
@@ -194,9 +211,18 @@ footer{
    
      
 }
+ h2 {
+    font-size: 17px;
+}
+ p {
+    font-size: 13px;
+}
 
 .mymission img{
     width: 10vh;
+}
+.mission , .vission , .goals{
+    height: 300px;
 }
 
  .girl-projects{
@@ -208,14 +234,15 @@ footer{
         width: 300px;
     }
     .communities{
-       
+       order: 2;
       width: 300px
       
     }
     
     .official-images img{
+        
         margin-top: 30px;
-        width: 45vh;
+        width: 40vh;
     }
     .girls-img img{
         width: 40vh;
@@ -227,6 +254,8 @@ footer{
        padding: 10px;
        font-size: 10px;
     }
-    
+    footer{
+        height: 130px;
+    }
     
 }
