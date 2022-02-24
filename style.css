@@ -9,14 +9,16 @@ h1{
 hr{
     display: none;
 }
+
 .using-border h1{
        
     font-size: 40px;
-    border-left: 4px solid rgba(243, 0, 49, 0.425);
-    
+   
+     border-left: 3px solid rgba(243, 0, 49, 0.425);
+     padding: 0px 0px 0px 10px;
   
-  padding:0px 20px;
-    border-radius:2px;
+ 
+  
    
 }
 .header{
@@ -118,7 +120,8 @@ hr{
 
     background-image:url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-size: 20%;
+    background-size: 10%;
+
     
    background-position: left;
 
@@ -181,6 +184,7 @@ footer{
       margin-top: 4rem;
   }
     .using-border h1 {
+       
       
      
         font-size: 27px;}
@@ -196,7 +200,7 @@ footer{
     gap: 20px 0px;
     }
    .first-section {
-       
+      
       
         text-align: center;}
 
@@ -242,7 +246,7 @@ footer{
     
     .official-images img{
         
-        margin-top: 30px;
+       
         width: 40vh;
     }
     .girls-img img{
